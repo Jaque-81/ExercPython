@@ -36,13 +36,10 @@ fase1(posicaoRato, posicaoGato)
 
 #alogoritmo do código:
 # imprimir na tela a apresentação do jogo;
-# imprimir na tela a primeira fase e as posições diponíveis na matriz;
 # perguntar ao jogador em qual posição deseja alocar;
-# se posição ocupada, GAME OVER;
-# reiniciar jogo;
-# se posição desocupada
+## se posição desocupada
 # então preenher posição
-# enquanto não preencher as duas
+# enquanto não preencher as duas...
 
 print("     HOTEL DOS ANIMAIS")
 print("Especificando posição:")
