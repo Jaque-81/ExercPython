@@ -1,1 +1,3 @@
-# ExercPython
+# Projeto em Python
+
+Em desenvolimeento...
