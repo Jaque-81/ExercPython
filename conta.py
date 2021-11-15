@@ -27,11 +27,14 @@ class Conta:#dentro da classe Conta será criado os objetos.
         def get_titular(self):
             return self._titular
 
-        def get_limite(self):
+        @property
+        def limite(self):
             return self._limite
 
-        def set_limite(self, limite):
+        @limite.setter
+        def limite(self, limite):
             self._limite = limite
+
 
 
 """ Se eu importar a classe:
