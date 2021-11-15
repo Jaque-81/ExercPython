@@ -21,19 +21,21 @@ class Conta:#dentro da classe Conta será criado os objetos.
             self.saca(valor)
             destino.deposita(valor)
 
-        def get_saldo(self):
-            return self._saldo
+          @property
+        def saldo(self):
+            return self.__saldo
 
-        def get_titular(self):
-            return self._titular
+        @property
+        def titular(self):
+            return self.__titular
 
         @property
         def limite(self):
-            return self._limite
+            return self.__limite
 
         @limite.setter
         def limite(self, limite):
-            self._limite = limite
+            self.__limite = limite
 
 
 
