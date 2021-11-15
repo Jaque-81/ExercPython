@@ -14,7 +14,7 @@ class Conta:#dentro da classe Conta será criado os objetos.
         def deposita(self, valor):
             self.__saldo += valor
 
-        def saca(self, valor):
+        def saca(self, valor): #é necessário criar uma verificação para que não se saque qualquer valor.
             self.__saldo -= valor
 
         def transfere(self, valor, destino):
