@@ -11,4 +11,4 @@ class Cliente:
     @nome.setter
     def nome(self, nome):
         print('Chamando setter nome()')
-            self.__nome = nome
+        self.__nome = nome
