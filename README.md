@@ -1,4 +1,4 @@
 # Projeto em Python
 
 Criando elementos de uma conta bancária. 👩🏻‍💻
-Em desenvolimeento...
+Alguns comentários estão no código para meu estudo. 
